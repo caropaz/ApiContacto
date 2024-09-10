@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiContacto\ApiContacto.csproj" />
+    <ProjectReference Include="..\Persona.Persistence\Persona.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
